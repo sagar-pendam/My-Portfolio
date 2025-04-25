@@ -37,7 +37,7 @@ export default function About() {
                     <h1 className="text-4xl font-bold mb-4 text-blue-400">About Me</h1>
                     <p className="text-lg mb-6">
                         Hi, I'm <span className="font-semibold">Sagar</span>, a passionate
-                        <span className="text-blue-300"> Frontend Developer </span> skilled in React.js, HTML, CSS, Javascript, Java, Python, and SQL.
+                        <span className="text-blue-300"> Frontend Developer </span> skilled in React.js, HTML, CSS, Javascript, Python, and SQL.
                     </p>
                 </motion.div>
 

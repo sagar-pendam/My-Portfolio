@@ -39,7 +39,7 @@ function Contact() {
                 scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
             }}
             style={ball}
-            className='max-w-md mx-auto w-[80%]'
+            className='max-w-md mx-auto w-[80%] mt-10'
         >
            
        

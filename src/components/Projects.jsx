@@ -60,7 +60,7 @@ function Projects() {
 
     const projectsContainer = {
         display: "grid",
-        gridTemplateColumns: "repeat(auto-fit, minmax(400px, 1fr))",
+        gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
         gap: "20px",
         padding: "20px",
     };
