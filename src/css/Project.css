@@ -1,0 +1,8 @@
+/* Add this to your CSS file or inside a <style> tag */
+.pbg {
+    transition: backdrop-filter 0.3s ease-in-out;
+}
+
+#projectDtl:hover ~ .pbg {
+    backdrop-filter: blur(10px);
+}
