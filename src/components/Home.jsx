@@ -33,28 +33,7 @@ function Home() {
             </div>
 
             <div className='home flex items-center justify-evenly h-[100vh] flex-wrap-reverse py-12'>
-                {/* <div className='home_left flex flex-col gap-5  px-2  '>
-                    <h1 className='text-5xl font-bold text-[#7a7a7ab8]'>
-                        Hi, I'm <span className='text-green-400'>Sagar</span>.
-                    </h1>
-                    <h1 className='text-5xl font-light text-green-400'>
-                        <span ref={el}></span>
-                    </h1>
-                    <h2 className='font-extralight'>
-                        Passionate about building responsive and user-friendly web apps.
-                    </h2>
-
-                    <div className='buttons flex flex-wrap gap-4 items-center '>
-                        <a href='www.facebook.com'>
-                            <button className='bg-[#101828] text-white px-4 py-2 rounded-4xl flex gap-2 items-center justify-between font-bold cursor-pointer hover:text-gray-300'>Download Resume <img className='size-5 animate-bounce' src='./svg/download.svg'></img></button>
-                        </a>
-
-                        <a>
-                        <button className='bg-[#101828] text-white px-4 py-2 rounded-4xl flex gap-2 items-center justify-between font-bold cursor-pointer hover:text-gray-300'>Visit <img className='' src='./svg/github.svg'></img></button>
-        
-                        </a>
-                    </div>
-                </div> */}
+               
 
 <motion.div
             initial={{ opacity: 0, scale: 0 }}
@@ -78,13 +57,13 @@ function Home() {
             <div className='buttons flex flex-wrap gap-4 items-center'>
                 
                 <motion.a
-                    href='/sagar_resume.pdf'
+                    href='./Sagar_s_Resume__.pdf'
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.4, delay: 0.2 }}
                     whileHover={{ scale: 1.1, rotate: 3 }}
                     whileTap={{ scale: 0.9 }}
-                    download="sagar_resume.pdf"
+                    download="./Sagar_s_Resume__.pdf"
 
 
                 >
