@@ -55,8 +55,8 @@ function Home() {
             </h2>
 
             <div className='buttons flex flex-wrap gap-4 items-center'>
-                
-                <motion.a
+                {/* Download Resume button */}
+                {/* <motion.a
                     href='./Sagar_s_Resume__.pdf'
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -70,7 +70,7 @@ function Home() {
                     <button className='bg-[#101828] border-2 text-white px-4 py-2 rounded-4xl flex gap-2 items-center justify-between font-bold cursor-pointer hover:text-gray-300'>
                         Download Resume <motion.img className='size-5 animate-bounce' src='./svg/download.svg' />
                     </button>
-                </motion.a>
+                </motion.a> */}
 
                 {/* Visit Button (Optional: You can animate this too) */}
                 <motion.a
