@@ -32,7 +32,7 @@ function Home() {
                 <div className="absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_800px_at_100%_200px,#d5c5ff,transparent)]"></div>
             </div>
 
-            <div className='home flex items-center justify-evenly min-h-[100vh] flex-wrap-reverse py-12'>
+            <div className='home flex items-center justify-evenly min-h-[100%] flex-wrap-reverse py-12'>
 
 
                 <motion.div
