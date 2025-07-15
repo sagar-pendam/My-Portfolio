@@ -4,18 +4,43 @@ import { useInView } from "react-intersection-observer";
 
 export default function About() {
     const skills = [
-        { name: "HTML", level: "90%" },
-        { name: "CSS", level: "90%" },
+        // Frontend
+        { name: "HTML5", level: "90%" },
+        { name: "CSS3", level: "90%" },
         { name: "JavaScript", level: "90%" },
-        { name: "React JS", level: "85%" },
+        { name: "React.js", level: "85%" },
+        { name: "Redux", level: "80%" },
         { name: "Tailwind CSS", level: "85%" },
-        { name: "Bootstrap CSS", level: "80%" },
+        { name: "Bootstrap", level: "80%" },
+    
+        // Backend
+        { name: "Java", level: "85%" },
+        { name: "Spring Boot (basic)", level: "60%" },
+        { name: "REST APIs", level: "75%" },
+        { name: "JDBC", level: "75%" },
+        { name: "JUnit", level: "60%" },
+    
+        // Databases
         { name: "MySQL", level: "75%" },
         { name: "Firebase Firestore", level: "75%" },
-        { name: "Python", level: "65%" },
+        { name: "Oracle PL/SQL (basic)", level: "60%" },
+    
+        // Tools & Platforms
         { name: "Git", level: "90%" },
-
-    ];
+        { name: "GitHub", level: "90%" },
+        { name: "VS Code", level: "90%" },
+        { name: "IntelliJ IDEA", level: "80%" },
+        { name: "Eclipse", level: "80%" },
+        { name: "Maven", level: "75%" },
+        { name: "Docker (basic)", level: "50%" },
+    
+        // Cloud & AI Tools
+        { name: "Firebase Hosting", level: "75%" },
+        { name: "Firebase Auth", level: "75%" },
+        { name: "ChatGPT (code assist)", level: "80%" },
+        { name: "GitHub Copilot (familiar)", level: "60%" },
+        { name: "Agile Workflow (basic)", level: "60%" },
+      ];
 
     const { ref: aboutRef, inView: aboutInView } = useInView({ triggerOnce: true, threshold: 0.2 });
     const { ref: skillsRef, inView: skillsInView } = useInView({ triggerOnce: true, threshold: 0.1 });
@@ -34,11 +59,27 @@ export default function About() {
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     className="about_me"
                 >
-                    <h1 className="text-4xl font-bold mb-4 text-blue-400">About Me</h1>
+                    {/* <h1 className="text-4xl font-bold mb-4 text-blue-400">About Me</h1>
                     <p className="text-lg mb-6">
                         Hi, I'm <span className="font-semibold">Sagar</span>, a passionate
                         <span className="text-blue-300"> Frontend Developer </span> skilled in React.js, HTML, CSS, Javascript, Python, and SQL.
-                    </p>
+                    </p> */}
+                    <h1 className="text-4xl font-bold mb-4 text-blue-400">About Me</h1>
+<p className="text-lg mb-6 text-gray-200">
+  Hi, I'm <span className="font-semibold">Sagar</span>, a passionate 
+  <span className="text-blue-300"> Full Stack Developer</span> skilled in building responsive, scalable, and real-world web applications.
+</p>
+<p className="text-lg text-gray-300">
+  I specialize in technologies like <span className="font-semibold text-white">Java, Spring Boot, REST APIs, React.js,</span> and 
+  <span className="font-semibold text-white"> Firebase</span>. I have hands-on experience with both frontend and backend development, and I'm comfortable working across the full stack — from designing responsive UIs to integrating APIs and managing databases using <span className="font-semibold text-white">MySQL</span> and <span className="font-semibold text-white">Oracle PL/SQL</span>.
+</p>
+<p className="text-lg mt-4 text-gray-300">
+  I'm continuously learning and exploring new technologies. Tools like <span className="font-semibold text-white">Git, Maven, Docker (basic)</span>, and AI-assisted coding with <span className="font-semibold text-white">ChatGPT</span> and <span className="font-semibold text-white">GitHub Copilot</span> are part of my workflow.
+</p>
+<p className="text-lg mt-4 text-gray-400 italic">
+  I'm eager to contribute to impactful products and grow as a developer in a collaborative, fast-paced environment.
+</p>
+
                 </motion.div>
 
                 {/* 🔹 Skills Section */}

@@ -10,7 +10,7 @@ function Home() {
         let typed;
         if (el.current) {
             typed = new Typed(el.current, {
-                strings: ['<i> A Frontend Developer</i>'],
+                strings: ['<i> A Full Stack Developer</i>'],
                 typeSpeed: 50,
             });
         }
@@ -33,18 +33,18 @@ function Home() {
             </div>
 
             <div className='home flex items-center justify-evenly h-[100vh] flex-wrap-reverse py-12'>
-               
 
-<motion.div
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-                duration: 0.4,
-                scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
-            }}
-            className='home_left flex flex-col gap-5 px-2'
-        >
-            <h1 className='text-5xl font-bold text-[#7a7a7ab8]'>
+
+                <motion.div
+                    initial={{ opacity: 0, scale: 0 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{
+                        duration: 0.4,
+                        scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
+                    }}
+                    className='home_left flex flex-col gap-5 px-2'
+                >
+                    {/* <h1 className='text-5xl font-bold text-[#7a7a7ab8]'>
                 Hi, I'm <span className='text-green-400'>Sagar</span>.
             </h1>
             <h1 className='text-5xl font-light text-green-400'>
@@ -52,11 +52,22 @@ function Home() {
             </h1>
             <h2 className='font-extralight'>
                 Passionate about building responsive and user-friendly web apps.
-            </h2>
+            </h2> */}
+                    <h1 className="text-5xl font-bold text-[#7a7a7ab8]">
+                        Hi, I'm <span className="text-green-400">Sagar</span>.
+                    </h1>
+                    <h1 className="text-5xl font-light text-green-400">
+                        <span ref={el}></span>
+                    </h1>
+                    <h2 className="font-extralight mt-2 text-[#c0c0c0]">
+                        Full Stack Developer skilled in Java, Spring Boot, React.js, and Firebase. <br />
+                        Passionate about building scalable, user-friendly, and real-world web apps.
+                    </h2>
 
-            <div className='buttons flex flex-wrap gap-4 items-center'>
-                {/* Download Resume button */}
-                {/* <motion.a
+
+                    <div className='buttons flex flex-wrap gap-4 items-center'>
+                        {/* Download Resume button */}
+                        {/* <motion.a
                     href='./Sagar_s_Resume__.pdf'
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -72,18 +83,18 @@ function Home() {
                     </button>
                 </motion.a> */}
 
-                {/* Visit Button (Optional: You can animate this too) */}
-                <motion.a
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                    href='https://github.com/sagar-pendam'
-                >
-                    <button className='bg-[#101828] text-white border-2 px-4 py-2 rounded-4xl flex gap-2 items-center justify-between font-bold cursor-pointer hover:text-gray-300'>
-                        Visit <img className='' src='./svg/github.svg' />
-                    </button>
-                </motion.a>
-            </div>
-        </motion.div>
+                        {/* Visit Button (Optional: You can animate this too) */}
+                        <motion.a
+                            whileHover={{ scale: 1.1 }}
+                            whileTap={{ scale: 0.9 }}
+                            href='https://github.com/sagar-pendam'
+                        >
+                            <button className='bg-[#101828] text-white border-2 px-4 py-2 rounded-4xl flex gap-2 items-center justify-between font-bold cursor-pointer hover:text-gray-300'>
+                                Visit <img className='' src='./svg/github.svg' />
+                            </button>
+                        </motion.a>
+                    </div>
+                </motion.div>
 
                 <div className='home_right'>
                     <motion.div
