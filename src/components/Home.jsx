@@ -10,7 +10,8 @@ function Home() {
         let typed;
         if (el.current) {
             typed = new Typed(el.current, {
-                strings: ['<i> A Full Stack Developer</i>'],
+                // strings: ['<i> A Full Stack Developer</i>'],
+                strings: ['<i> A React.js Frontend Developer</i>'],
                 typeSpeed: 50,
             });
         }
@@ -59,12 +60,15 @@ function Home() {
                     <h1 className="text-5xl font-light text-green-400">
                         <span ref={el}></span>
                     </h1>
-                    <h2 className="font-extralight mt-2 text-[#c0c0c0]">
+                    {/* <h2 className="font-extralight mt-2 text-[#c0c0c0]">
                         Full Stack Developer skilled in Java, Spring Boot, React.js, and Firebase. <br />
                         Passionate about building scalable, user-friendly, and real-world web apps.
+                    </h2> */}
+                    
+                    <h2 className="font-extralight mt-2 text-[#c0c0c0]">
+                       Frontend Developer skilled in React.js, JavaScript, Tailwind CSS, and Firebase.<br/>
+                    Passionate about building responsive, accessible, and high-performance web applications.
                     </h2>
-
-
                     <div className='buttons flex flex-wrap gap-4 items-center'>
                         {/* Download Resume button */}
                         {/* <motion.a
