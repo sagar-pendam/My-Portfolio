@@ -145,7 +145,7 @@ export default function About() {
                             <div className="h-[1px] w-full bg-slate-800"></div>
                             <p className="text-green-400 font-semibold px-4">Percentage : <span className="font-medium text-sm text-blue-400">72.52 %</span></p>
                             <div className="h-[1px] w-full bg-slate-800"></div>
-                            <p className="text-green-400 font-semibold px-4"> BCA - [2020-2024]</p>
+                            <p className="text-green-400 font-semibold px-4"> BCA - [2024]</p>
                            
                            </div>
                         </motion.div>
@@ -183,7 +183,7 @@ export default function About() {
                 >
                     <h2 className="text-2xl font-semibold mb-3 text-blue-400 mt-32">Career Goals</h2>
                     <p className="mb-4">
-                        My goal is to become a <span className="text-blue-300 font-semibold">Full Stack Developer</span>,
+                        My goal is to become a <span className="text-blue-300 font-semibold">Frontend Developer</span>,
                         designing impactful software solutions that align with business needs.
                     </p>
                 </motion.div>
