@@ -59,16 +59,16 @@ export default function About() {
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     className="about_me"
                 >
-                    {/* <h1 className="text-4xl font-bold mb-4 text-blue-400">About Me</h1>
+                    <h1 className="text-4xl font-bold mb-4 text-blue-400">About Me</h1>
                     <p className="text-lg mb-6">
                         Hi, I'm <span className="font-semibold">Sagar</span>, a passionate
                         <span className="text-blue-300"> Frontend Developer </span> skilled in React.js, HTML, CSS, Javascript, Python, and SQL.
-                    </p> */}
+                    </p> 
                     <h1 className="text-4xl font-bold mb-4 text-blue-400">About Me</h1>
-<p className="text-lg mb-6 text-gray-200">
+{/* <p className="text-lg mb-6 text-gray-200">
   Hi, I'm <span className="font-semibold">Sagar</span>, a passionate 
   <span className="text-blue-300"> Full Stack Developer</span> skilled in building responsive, scalable, and real-world web applications.
-</p>
+</p> */}
 <p className="text-lg text-gray-300">
   I specialize in technologies like <span className="font-semibold text-white">Java, Spring Boot, REST APIs, React.js,</span> and 
   <span className="font-semibold text-white"> Firebase</span>. I have hands-on experience with both frontend and backend development, and I'm comfortable working across the full stack — from designing responsive UIs to integrating APIs and managing databases using <span className="font-semibold text-white">MySQL</span> and <span className="font-semibold text-white">Oracle PL/SQL</span>.
